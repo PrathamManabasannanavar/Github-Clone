@@ -19,10 +19,10 @@ function App() {
       <Link to="/contact">contact US</Link> */}
 
         <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/contact' element={<ContactPage />} />
-          <Route path='/support' element={<SupportPage />} />
-          <Route path='/:username' element={<UserDetails/>}/>
+          <Route path='/Github-Clone/' element={<HomePage />} />
+          <Route path='/Github-Clone/contact' element={<ContactPage />} />
+          <Route path='/Github-Clone/support' element={<SupportPage />} />
+          <Route path='/Github-Clone/:username' element={<UserDetails/>}/>
         </Routes>
       </div>
     </Router>

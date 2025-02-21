@@ -8,7 +8,7 @@ function HomePage(){
     const [input, setInput] = useState('')
 
     const redirectUser = ()=>{
-        navigate(`/${input}`)
+        navigate(`/Github-Clone/${input}`)
     }
 
     const readInput = ()=>setInput(document.getElementById('search').value)

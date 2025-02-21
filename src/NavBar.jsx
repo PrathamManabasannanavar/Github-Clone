@@ -16,13 +16,13 @@ function NavBar() {
 
             <div className="NavCompBox">
                 <div>
-                    <Link to="/" className='NavEle'>Home</Link>
+                    <Link to="/Github-Clone/" className='NavEle'>Home</Link>
                 </div>
                 <div>
-                    <Link to="/contact" className='NavEle'>Contact us</Link>
+                    <Link to="/Github-Clone/contact" className='NavEle'>Contact us</Link>
                 </div>
                 <div>
-                    <Link to="/support" className='NavEle'>Support</Link>
+                    <Link to="/Github-Clone/support" className='NavEle'>Support</Link>
                 </div>
             </div>
         </div>
