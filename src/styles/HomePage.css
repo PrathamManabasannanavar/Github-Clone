@@ -1,0 +1,107 @@
+#WelcomePage{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+.welcomeText{
+    margin-bottom: 20px;
+}
+
+.InputBox{
+    height: 100%;
+}
+
+.SearchBox{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    animation-name: Text-Animation;
+    animation-duration: 2s;
+}
+
+#search{
+    height: 30px;
+    border-radius: 20px;
+    width: 400px;
+    padding: 5px 20px;
+    padding-right: 40px;
+    border: 1px solid black;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    min-width: 100px;
+    max-width: 400px;
+}
+
+#search:focus{
+    outline: none;
+    user-select: none;
+}
+
+.SearchBox button{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-width: 1px;
+    padding: 0.5px 10px;
+    position: relative;
+    left: -30px;
+    cursor: pointer;
+}
+
+.GithubCloneDescBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    font-size: 0.5em;
+    text-align: left;
+    padding: 10px;
+    cursor: default;
+}
+
+.GithubCloneDescBox h1{
+    margin: 10px;
+    background-color: rgb(69, 69, 172);
+    padding: 15px;
+    border-radius: 20px;
+    width: fit-content;
+    position: relative;
+}
+
+.SearchGithubHeading{
+    animation-name:  left-to-right;
+    animation-duration: 2s;
+}
+
+.DiscoverYourProfile{
+    animation-name:  left-to-right;
+    animation-duration: 2s;
+}
+
+
+/* animation */
+@keyframes left-to-right {
+    from{
+        left: -300px;
+    }
+    to{
+        left: 0;
+    }
+}
+
+
+@keyframes Text-Animation {
+    0%{
+        top: 50px;
+        opacity: 0;
+    }
+    50%{
+        top: 50px;
+        opacity: 0.2;
+    }
+    100%{
+        top: 0;
+        opacity: 1;
+    }
+}
+
+
